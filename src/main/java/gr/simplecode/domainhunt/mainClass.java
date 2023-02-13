@@ -38,12 +38,14 @@ public class mainClass {
         try {
             mainClass instance = new mainClass();
 
-            InputStream is = instance.readSourceFileAsStream("dictionaries/txt/positive-words.txt");
+            InputStream is = instance.readSourceFileAsStream("dictionaries/txt/paintings.txt");
 
             try (InputStreamReader isr = new InputStreamReader(is); BufferedReader br = new BufferedReader(isr);) {
                 String line;
                 while ((line = br.readLine()) != null) {
-                    domainCheck(line+"code.com", true);
+                    line = line.replaceAll("\\s", "");
+                    line = line.toLowerCase();
+                    domainCheck(line+".com", true);
                 }
                 is.close();
             }
