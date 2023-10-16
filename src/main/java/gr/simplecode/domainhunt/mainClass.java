@@ -73,7 +73,7 @@ public class mainClass {
 
     private static void domainReport(InetAddress domainInetAddress, String domainToCheck) {
         if (domainInetAddress != null) {
-            System.out.println(domainToCheck + " : domain state : registered");
+            //System.out.println(domainToCheck + " : domain state : registered");
         } else {
             System.out.println(domainToCheck + " : domain state : unregistered");
         }
