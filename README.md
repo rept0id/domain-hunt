@@ -1,6 +1,6 @@
-# domainHunt
+# domainHunt ![java-11](https://img.shields.io/badge/java-11-f39f37)
 
-![java-17](https://img.shields.io/badge/java-17-f39f37)
+![screenshot](https://github.com/rept0id/domainHunt/blob/main/Screenshot_2023-10-16_05_36_09.png)
 
 Explore available domain names inspired by given dictionary
 
