@@ -1,10 +1,10 @@
 build:
-	sudo ./mvn/bin/mvn package;
+	sudo ./mvnw clean package;
 	sudo docker-compose build;
 
 build-run:
 	sudo docker-compose down;
-	sudo ./mvn/bin/mvn package;
+	sudo ./mvnw clean package;
 	sudo docker-compose build;
 	echo "Dont forget to run 'make stop' after, in order to stop server";
 	sudo docker-compose up;
