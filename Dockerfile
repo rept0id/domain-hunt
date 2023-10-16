@@ -1,4 +1,4 @@
-FROM adoptopenjdk/openjdk17
+FROM adoptopenjdk/openjdk11
 
-COPY target/domainHunt-0.0.1.jar app.jar
-ENTRYPOINT ["java","-jar","/app.jar"]
+COPY target/letsjavaspringboot-0.0.1-SNAPSHOT.jar server.jar
+ENTRYPOINT ["java","-jar","/server.jar"]
