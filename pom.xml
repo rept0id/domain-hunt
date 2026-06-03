@@ -12,6 +12,7 @@
         <exec.mainClass>gr.simplecode.domainhunt.mainClass</exec.mainClass>
     </properties>
     <build>
+        <finalName>domainHunt</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

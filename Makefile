@@ -1,18 +1,7 @@
 build:
-	sudo ./mvnw clean package;
-	sudo docker-compose build;
-
-build-run:
-	sudo docker-compose down;
-	sudo ./mvnw clean package;
-	sudo docker-compose build;
-	echo "Dont forget to run 'make stop' after, in order to stop server";
-	sudo docker-compose up;
+	./mvnw clean package;
 
 run:
-	sudo docker-compose down;
-	sudo docker-compose up;
+	java -jar target/domainHunt.jar
 
-stop:
-	sudo docker-compose down;
-
+build-run: build run
