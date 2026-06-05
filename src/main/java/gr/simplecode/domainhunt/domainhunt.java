@@ -60,8 +60,6 @@ public class domainhunt {
 
                 if (isAvailable) {
                     System.out.println(domain + " : available");
-                } else {
-                    System.out.println(domain + " : unavailable");
                 }
             }
 
