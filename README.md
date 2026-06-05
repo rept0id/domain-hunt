@@ -1,4 +1,4 @@
-# domainHunt ![java-11](https://img.shields.io/badge/java-11-f39f37)
+# domainHunt ![java-11](https://img.shields.io/badge/java-11-f39f37) ![openjdk-17](https://img.shields.io/badge/openjdk-17-f39f37)
 
 ![screenshot](./Screenshot_2023-10-16_05_36_09.png)
 
